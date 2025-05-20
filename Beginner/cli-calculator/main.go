@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"slices"
+)
 
 var operators = []string{"+", "-", "*", "/"}
 
@@ -84,10 +87,5 @@ func calculate(num1 float64, operator string, result *float64) float64 {
 }
 
 func validateOperator(operator string) bool {
-	for _, op := range operators {
-		if operator == op {
-			return true
-		}
-	}
-	return false
+	return slices.Contains(operators, operator)
 }
