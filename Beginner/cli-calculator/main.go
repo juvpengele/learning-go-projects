@@ -36,11 +36,8 @@ func main() {
 		calculatedResult := calculate(num1, operator, result)
 		result = &calculatedResult
 		
-		fmt.Println("=======================================")
-		fmt.Println("result: ", *result)
-		fmt.Println("========================================")
+		showResult(result) 
 
-	
 		continueCmd = continueOperation()
 	} 
 
@@ -53,6 +50,12 @@ func continueOperation() string {
 	fmt.Scanln(&continueCmd)
 
 	return continueCmd
+}
+
+func showResult(result *float64) {
+	fmt.Println("=======================================")
+	fmt.Println("result: ", *result)
+	fmt.Println("========================================")
 }
 
 func calculate(num1 float64, operator string, result *float64) float64 {
