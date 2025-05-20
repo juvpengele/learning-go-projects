@@ -6,11 +6,11 @@ This folder contains beginner-level projects to build a strong foundation in Go 
 
 ## 📌 Project List
 
-| #  | Project Name   | Description                                  | Status        |
-|----|----------------|----------------------------------------------|----------------|
-| 1  | Calculator     | CLI calculator handling basic operations     | 🟡 In Progress |
-| 2  | Todo App       | Terminal-based task manager                  | ⏳ Upcoming     |
-| 3  | File Analyzer  | Word/line counter for input text files       | ⏳ Upcoming     |
+| #  | Project Name   | Description                                  | Status          |
+|----|----------------|----------------------------------------------|-----------------|
+| 1  | Calculator     | CLI calculator handling basic operations      | ✅ Completed    |
+| 2  | Todo App       | Terminal-based task manager                   | 🟡 In Progress  |
+| 3  | File Analyzer  | Word/line counter for input text files        | ⏳ Upcoming     |
 
 ---
 
@@ -46,11 +46,10 @@ beginner/
 
 ## ✅ Learning objectives
 
-- [ ] Setup folder structure
-- [ ] Create main entrypoint
-- [ ] Add arithmetic logic
-- [ ] Handle CLI input
-- [ ] Error handling
-- [ ] Unit testing
-- [ ] Refactor & clean code
-- [ ] Final review and testing
+- [x] Setup folder structure
+- [x] Create main entrypoint
+- [x] Add arithmetic logic
+- [x] Handle CLI input
+- [x] Error handling
+- [x] Refactor & clean code
+- [x] Final review and testing
