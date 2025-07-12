@@ -7,14 +7,14 @@ A simple command-line calculator built in Go. This project is part of the [Go Le
 ## 📂 Project Structure
 
 ```
-calculator/
-├── main.go         # Entry point for the calculator
-├── calculator.go   # Arithmetic logic functions
-├── utils.go        # (optional) Helper utilities
+.
+├── calculator
+│   └── calculator.go
 ├── go.mod
-└── README.md       # This file
-```
-
+├── main.go      # Entry point for the CLI calculator
+├── README.md      # This file
+└── utils
+    └── utils.go
 ---
 
 ## 🚀 Features

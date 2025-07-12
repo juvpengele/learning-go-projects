@@ -3,16 +3,17 @@
 Welcome to my personal learning tracker for mastering the **Go programming language (Golang)**.  
 This repository will contain hands-on projects ranging from beginner to advanced level.
 
-I’m starting from the basics and progressively building my way up through real-world applications.
+I'm starting from the basics and progressively building my way up through real-world applications.
 
 ## 📘 Current Status
 
-✅ **Currently working on:** `Calculator CLI`
+✅ **Currently working on:** `Number Guessing Game`
 
 🛠️ **Learning Goals:**
 - Understand the basics of Go syntax
 - Learn how to work with user input and command-line interfaces
 - Handle basic operations using functions and conditionals
+- Work with random number generation and control structures
 
 ---
 
@@ -20,9 +21,9 @@ I’m starting from the basics and progressively building my way up through real
 
 | Level        | Project Name                | Description                                               | Status     | Link                        |
 |--------------|-----------------------------|-----------------------------------------------------------|------------|-----------------------------|
-| 🟢 Beginner   | Calculator CLI              | Simple CLI calculator for basic arithmetic                | 🟡 In Progress | `./calculator/` (coming soon) |
+| 🟢 Beginner   | Calculator CLI              | Simple CLI calculator for basic arithmetic                | ✅ Complete | `./Beginner/cli-calculator/` |
+| 🟢 Beginner   | Number Guessing Game       | Guess a randomly generated number                         | 🟡 In Progress | -                           |
 | 🟢 Beginner   | To-Do List CLI             | Manage tasks (add, list, delete) in memory                | ⏳ Pending  | -                           |
-| 🟢 Beginner   | Number Guessing Game       | Guess a randomly generated number                         | ⏳ Pending  | -                           |
 | 🟢 Beginner   | JSON Reader/Writer         | Load and save JSON from/to file                           | ⏳ Pending  | -                           |
 | 🟡 Intermediate | REST API with Gorilla Mux  | Full CRUD REST API (e.g., books or users)                 | ⏳ Pending  | -                           |
 | 🟡 Intermediate | Concurrent Web Scraper     | Parallel scraping of multiple websites                    | ⏳ Pending  | -                           |
@@ -41,11 +42,12 @@ I’m starting from the basics and progressively building my way up through real
 ## 📂 Repository Structure
 
 ```bash
-├── calculator/          # Current project: CLI calculator
+├── Beginner/
+│   ├── cli-calculator/  # ✅ Complete: CLI calculator
+│   └── number-guessing/ # 🟡 In Progress: Number guessing game
 ├── README.md           # This file
 ```
 ## 📈 Follow Along
 
 This repository will be continuously updated as I complete each project.  
 Feel free to ⭐ the repo and follow my journey!
-
