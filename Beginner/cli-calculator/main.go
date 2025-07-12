@@ -2,6 +2,7 @@ package main
 
 import (
 	"cli-calculator/calculator"
+	"cli-calculator/utils"
 	"fmt"
 )
 
@@ -23,7 +24,7 @@ func main() {
 
 			result = num1
 		} else{
-			calculator.ShowResult("Current Result: ", result)
+			utils.ShowResult("Current Result: ", result)
 		}
 
 		fmt.Print("Enter operator (+, -, *, /): ")
@@ -41,7 +42,7 @@ func main() {
 		calculatedResult := calculator.Calculate(num2, operator, result)
 		result = &calculatedResult
 
-		calculator.ShowResult("Result: ", result)
+		utils.ShowResultWithBorder("Result: ", result, "*")
 
 		continueCmd = ContinueOperation()
 	}

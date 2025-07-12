@@ -7,12 +7,6 @@ import (
 
 var operators = []string{"+", "-", "*", "/"}
 
-func ShowResult(key string,result *float64) {
-	fmt.Println("=======================================")
-	fmt.Println(key, *result)
-	fmt.Println("========================================")
-}
-
 func Calculate(num1 float64, operator string, result *float64) float64 {
 	if result == nil {
 		result = new(float64)
