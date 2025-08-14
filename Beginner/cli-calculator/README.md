@@ -7,7 +7,6 @@ A simple command-line calculator built in Go. This project is part of the [Go Le
 ## 📂 Project Structure
 
 ```
-.
 ├── calculator
 │   └── calculator.go
 ├── go.mod
@@ -15,7 +14,7 @@ A simple command-line calculator built in Go. This project is part of the [Go Le
 ├── README.md      # This file
 └── utils
     └── utils.go
----
+```
 
 ## 🚀 Features
 
@@ -38,7 +37,6 @@ A simple command-line calculator built in Go. This project is part of the [Go Le
 go run main.go
 ```
 
----
 
 ## 📚 Learning Objectives
 
